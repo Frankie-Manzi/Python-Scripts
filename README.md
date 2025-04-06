@@ -8,3 +8,4 @@ The Detection Lab project aimed to establish a controlled environment for simula
 ## 📂 Contents
 - [Log Parsing](./Log-Parsing-Scripts/Honeypot-Analyser)
 - [Brute Force](./Emulated-Brute-Force-Attack)
+- [Password Generator](./Password-Generator)
