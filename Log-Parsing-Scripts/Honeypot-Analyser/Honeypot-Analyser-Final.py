@@ -48,5 +48,5 @@ def analyse_logs(log_file):
                 print()
     return failed_attempts
 if __name__ == "__main__":
-    log_file = "C:/Users/frank/Downloads/test.JSON"
+    log_file = "C:/Users/frank/Downloads/HoneyPot-Logs.JSON"
     analyse_logs(log_file)
