@@ -1,6 +1,6 @@
 ## Objective
 
-The main goal of this script, was to develop the basics and fundamentals of writing a script to automatically parse log files to extract relevant information such as source IP addresses and how many times a failed login event ocurred.
+The main goal of this script, was to develop the basics and fundamentals of writing a script to automatically parse log files to detect potential brute force attacks. The script was designed to output all failed login attempts and the IP address that each login attempt belonged to, the script also counted each failed login attempt and if the count was > 5, the script outputs a message that  reads "Possible brute force attack detected from (IP address)!"
 
 ## [Script](./Simple-Log-Analyser.py)
 
