@@ -12,7 +12,7 @@ def generate_password(length):
     return password
 
 # Asks the user to input the length of the password they desire
-password_length = int(input("Enter the desired password length (number): "))
+password_length = int(input("Enter the desired password length (number > 7): "))
 
 # Checks if password length is less than 7
 if password_length < 7:
