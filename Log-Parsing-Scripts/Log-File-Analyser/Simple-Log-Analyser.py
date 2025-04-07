@@ -29,5 +29,5 @@ def analyse_logs(log_file):
         if count > 5:
             print (f" Possible brute force attack detected from {ip}!")
 if __name__ == "__main__":
-    log_file = "C:/Users/frank/Desktop/Login.log"
+    log_file = "C:/Users/frank/Desktop/Sample-logfile.log"
     analyse_logs(log_file)
